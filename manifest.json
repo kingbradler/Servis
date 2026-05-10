@@ -1,0 +1,50 @@
+{
+  "name": "Servis — Tanger",
+  "short_name": "Servis",
+  "description": "La plateforme des prestataires locaux à Tanger",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E0E0E",
+  "theme_color": "#0E0E0E",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["business", "lifestyle", "shopping"],
+  "shortcuts": [
+    {
+      "name": "Trouver un prestataire",
+      "short_name": "Explorer",
+      "description": "Parcourir les prestataires",
+      "url": "./#explorer",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Rejoindre Servis",
+      "short_name": "Rejoindre",
+      "description": "Créer ton compte prestataire",
+      "url": "./#rejoindre",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
