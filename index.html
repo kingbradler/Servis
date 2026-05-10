@@ -2913,7 +2913,7 @@ function renderDash(){
   $('a-np').textContent=data.filter(p=>p.status==='active').length;
   $('a-nc').textContent=totalContacts();$('a-top').textContent=topPrest();
   $('a-pend').textContent=data.filter(p=>p.status==='pending').length;
-  $('dt-tbody').innerHTML=data.slice(0,8).map(p=>`
+  $('dt-tbody').innerHTML=data.map(p=>`
     <tr>
       <td><div class="td-av"><div class="td-img">${getPhotos(p).length?`<img src="${getPhotos(p)[0]}">`:(ci(p.cat))}</div><span class="td-n">${p.name}</span></div></td>
       <td style="color:var(--o);font-size:12px">${p.service_name||'—'}</td>
